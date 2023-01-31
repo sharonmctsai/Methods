@@ -1,0 +1,22 @@
+//3.a example 3.12
+
+//passing color& weight- 2 parameters
+
+void setup()
+{
+  size(100,100);
+}
+
+void draw()
+{
+ background(204);
+ cross(0,30); // parameter
+}
+
+void cross(int gray , int weight) //2 parameter- color and weight
+{
+ strokeWeight(weight); //parameter
+ stroke(gray);        //parameter
+ line(0,5,60,50);
+ line(60,5,0,50);
+}
