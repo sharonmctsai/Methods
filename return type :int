@@ -1,0 +1,16 @@
+//return type :int
+
+int val=30; //glbal variable
+
+void draw()
+{
+  int result = timesTwo(val);
+  println(result);
+}
+
+int timesTwo(int number)  //int in the function declaration 
+                         //specifies the type of data to be reuturned
+{
+ number = number*2;
+ return number;
+}
