@@ -1,0 +1,22 @@
+//3.a example 3.11
+
+//passing color as a parameter
+
+void setup()
+{
+  size(100,100);
+}
+
+void draw()
+{
+ background(204);
+ cross(0); // parammeter
+}
+
+void cross(int gray) //value
+{
+ strokeWeight(20);
+ stroke(gray);
+ line(0,5,60,50);
+ line(60,5,0,50);
+}
