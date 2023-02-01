@@ -1,0 +1,24 @@
+
+
+
+void setup(){
+   size(400,400);
+   noStroke();
+}
+void draw()
+{
+}
+void mousePressed(){
+   drawTarget(9,150);
+}
+
+void drawTarget(int size, int colour){ //for start curl bracket
+                                      //initiliase 2 variables, size and colour
+  for(int i =0; i<size; i++) {  //for open
+    if (colour > 255){          // if open
+         colour =0 ;
+     }   //if close
+      ellipse(mouseX, mouseY, 150-i*20, 150-i*20);
+      fill(colour += 30);
+ }  //for close
+} //for close
