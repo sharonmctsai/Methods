@@ -1,0 +1,23 @@
+//Products
+
+
+void setup()
+{
+ size(1024,768);
+ textSize(48);
+ fill(255,0,255);
+  
+}
+
+void draw()
+{
+  float a = 20.5; //setting two 2 variables a & b
+  float b = 3.5;
+ 
+ text("The product of" + a + "and" + b + "is " + product(a,b),100,100);//using text method to the display window, callig the method product being calculated
+}
+
+float product(float num1, float num2) //taking in numbers and return result
+{
+  return num1*num2;
+}
