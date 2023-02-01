@@ -1,0 +1,22 @@
+//Cubed
+
+
+void setup()
+{
+ size(1024,768);
+ textSize(48);
+ fill(0,0,255);
+  
+}
+
+void draw()
+{
+ int number =5;//create a varaible setting to 5
+ text(number +"cubed is"+ cubed(number),100,100); //output to the display using text mothod, call to the method to work out  what cubed the number is // position 100 100 iin the display window
+ 
+}
+
+int cubed(int num) //denition for cubed method, return type is int,taking in number
+{
+ return num*num*num; //return 5x5x5
+}
