@@ -1,0 +1,12 @@
+//Ex.3.18- Alphabet
+
+char letter = 'A';
+
+for(int i = 0 ; i < 26 ; i++)
+{
+ print(letter);
+ letter++;  //This codes used the underlying Unicode value for'A'(i.i.'/u0041')
+          //and adds one to it each time the for loop is iterated
+          //As the for loop is iterated 26 times and the starting value is 'A'
+          //our loop will print the alphabet to the console.
+}
