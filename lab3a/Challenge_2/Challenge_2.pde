@@ -15,7 +15,7 @@ void drawTarget(int size, int colour){ //for start curl bracket
          colour =0;
       ellipse(mouseX, mouseY, 150-i*20, 150-i*20);
      
-         colour += 30;
+         fill(colour += 30);
   }
 
  }
